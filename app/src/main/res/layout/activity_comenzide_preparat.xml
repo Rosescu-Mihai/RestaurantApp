@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pink_background"
+    tools:context=".ComenzidePreparatActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginVertical="5dp"
+        android:src="@drawable/inverse_logo"
+        android:layout_gravity="center"/>
+
+    <ListView
+        android:id="@+id/lista_comenzi"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/edit_text_bg"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/rencarca_comenzi"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_refresh_24"/>
+
+</LinearLayout>

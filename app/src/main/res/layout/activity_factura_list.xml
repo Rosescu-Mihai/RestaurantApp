@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IncasariActivity"
+    android:background="@drawable/pink_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/inverse_logo"
+            android:layout_gravity="end"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/suma_Facturi"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="@string/suma_facturi"
+                android:fontFamily="@font/pacifico"
+                android:textSize="15sp"
+                android:layout_marginVertical="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="90dp"
+        android:text="@string/data_facturare"
+        android:fontFamily="@font/pacifico"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/data_inscrisa_factura"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_text_bg"
+            android:layout_marginStart="60dp"
+            android:layout_marginVertical="10dp"
+            android:gravity="center"
+            android:inputType="date"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_cauta"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="40dp"
+            android:src="@drawable/ic_round_find_in_page_24"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lista_facturi"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

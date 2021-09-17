@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">ManagementRestaurantApp</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="user_code">User code</string>
+    <string name="password2">Password</string>
+    <string name="nume">Nume</string>
+    <string name="prenume">Prenume</string>
+    <string name="cod_inregistrare">Cod inregistrare</string>
+    <string name="password3">Password</string>
+    <string name="functie">Functie</string>
+    <string name="inregistreaza">Inregistreaza</string>
+    <string name="e_mail">E-mail</string>
+    <string name="easy_serving">Easy Serving</string>
+    <string name="lista_angajati">Lista Angajati.</string>
+    <string name="vizualizare_lista_angajati">Vizualizare Lista Angajati</string>
+    <string name="meniu_bautura">Meniu Bautura</string>
+    <string name="meniu_mancare">Meniu Mancare</string>
+    <string name="incasari_zile">Incasari zile</string>
+    <string name="editarea_comanda">Editarea Comanda</string>
+    <string name="incasari">Incasari</string>
+    <string name="data_incasare">Data Incasare</string>
+    <string name="suma_card">Suma Card</string>
+    <string name="suma_numerar">Suma numerar</string>
+    <string name="inregistrare_factura">Inregistrare Factura</string>
+    <string name="hello">Hello</string>
+    <string name="comenzi_barman">Comenzi Barman</string>
+    <string name="comenzi_bucatarie">Comenzi Bucatarie</string>
+    <string name="comenzi_efectuate">Comenzi Efectuate</string>
+    <string name="preparat">Preparat</string>
+    <string name="cantitate">Cantitate</string>
+    <string name="factura">Factura</string>
+    <string name="cantitate_per_buc">Cantitate per buc.</string>
+    <string name="nr_bucati">Nr. bucati</string>
+    <string name="incaraca">Incaraca</string>
+    <string name="adauga">Adauga</string>
+    <string name="suma_facturi">Suma Facturi</string>
+    <string name="data_facturare">Data facturare</string>
+    <string name="pret_per_buc">Pret per buc.</string>
+    <string name="total">Total:</string>
+    <string name="furnizor">Furnizor</string>
+    <string name="vizualizare_facturi">Vizualizare Facturi</string>
+    <string name="plus">+</string>
+    <string name="adauga_in_meniu">Adauga in meniu</string>
+    <string name="tip">Tip:</string>
+    <string name="incaraca_preparat_in_meniu">Incaraca preparat in Meniu</string>
+    <string name="ml_g">ml/g</string>
+    <string name="pret">Pret</string>
+
+    <string-array name="functii">
+        <item>manager</item>
+        <item>barman</item>
+        <item>ospatar</item>
+        <item>bucatar</item>
+    </string-array>
+
+    <string-array name="metodePlata">
+        <item>Numerar</item>
+        <item>Card</item>
+    </string-array>
+
+    <string-array name="tipPreparat">
+        <item>bautura</item>
+        <item>mancare</item>
+    </string-array>
+
+</resources>

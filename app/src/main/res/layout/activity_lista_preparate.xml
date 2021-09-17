@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pink_background"
+    android:orientation="vertical"
+    tools:context=".ListaPreparateActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/inverse_logo"
+        android:layout_marginVertical="5dp"
+        android:layout_gravity="center"/>
+
+    <ListView
+        android:id="@+id/lista_preparate"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/edit_text_bg"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/comanda_efectuata"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_check_24"/>
+
+</LinearLayout>

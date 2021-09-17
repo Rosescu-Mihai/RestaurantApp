@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pink_background"
+    tools:context=".MeniuOperatiuniAngajatActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/new_final_logo"
+        android:paddingVertical="20dp"
+        android:layout_marginVertical="0dp"/>
+
+    <TextView
+        android:id="@+id/nume_user"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/pacifico"
+        android:text="@string/hello"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/comanda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/editarea_comanda"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/button_bg" />
+    <Button
+        android:id="@+id/factura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inregistrare_factura"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/button_bg" />
+    <Button
+        android:id="@+id/comanda_barman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/comenzi_barman"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/button_bg" />
+    <Button
+        android:id="@+id/comnada_bucatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/comenzi_bucatarie"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/button_bg" />
+    <Button
+        android:id="@+id/comnada_ospatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/comenzi_efectuate"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/button_bg" />
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/donut_anim"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:lottie_autoPlay="true"
+        android:layout_gravity="center"
+        app:lottie_rawRes="@raw/donut"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/decon_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_sensor_door_24" />
+
+</LinearLayout>

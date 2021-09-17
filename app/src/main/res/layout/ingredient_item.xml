@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/denumire_ingredient"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="@string/nume"
+        android:textSize="15sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/cantitate_ingredient"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="@string/cantitate"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_gravity="left"
+
+        tools:ignore="RtlCompat,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/bucati_ingredient"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="@string/cantitate"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_gravity="left"
+        tools:ignore="RtlCompat,RtlHardcoded" />
+
+
+</LinearLayout>

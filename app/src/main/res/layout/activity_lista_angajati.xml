@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pink_background"
+    tools:context=".ListaAngajatiActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/inverse_logo"
+        android:layout_gravity="center"
+        android:paddingVertical="20dp"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/pacifico"
+        android:text="@string/lista_angajati"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+    />
+    <ListView
+        android:id="@+id/lv_angajati"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+</LinearLayout>

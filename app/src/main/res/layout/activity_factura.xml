@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pink_background"
+    android:orientation="vertical"
+    tools:context=".FacturaActivity">
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:text="@string/factura"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginVertical="5dp"
+        android:fontFamily="@font/pacifico"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="5dp">
+
+        <TextView
+            android:id="@+id/ingredient"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/nume"
+            android:textAlignment="center"
+            android:fontFamily="@font/pacifico"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/nume_ingredient"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/edit_text_bg"
+            android:singleLine="true"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cnt_per_buc"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/cantitate_per_buc"
+            android:textAlignment="center"
+            android:fontFamily="@font/pacifico"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/cantitate_bucata"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:inputType="number"
+            android:background="@drawable/edit_text_bg"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/ml_kg"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="ml/g"
+            android:textSize="20sp"
+            android:fontFamily="@font/pacifico"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="5dp">
+
+        <TextView
+            android:id="@+id/pret_buc"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/pret_per_buc"
+            android:textAlignment="center"
+            android:fontFamily="@font/pacifico"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/pret_bucata"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:inputType="number"
+            android:background="@drawable/edit_text_bg"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nr_bucati"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/nr_bucati"
+            android:textAlignment="center"
+            android:fontFamily="@font/pacifico"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/cantitate_totala"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:inputType="number"
+            android:background="@drawable/edit_text_bg"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/total_suma_factura"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="@string/total"
+            android:textAlignment="center"
+            android:fontFamily="@font/pacifico"
+            android:layout_marginHorizontal="10dp"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/adauga_produs"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/adauga"
+            android:fontFamily="@font/pacifico"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/furnizor"
+            android:textAlignment="center"
+            android:fontFamily="@font/pacifico"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/nume_furnizor"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:inputType="text"
+            android:background="@drawable/edit_text_bg"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:text="@string/nume"
+            android:textAlignment="center"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/pacifico"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:text="@string/cantitate_per_buc"
+            android:textAlignment="center"
+            android:layout_marginStart="50dp"
+            android:fontFamily="@font/pacifico"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:text="@string/nr_bucati"
+            android:textAlignment="center"
+            android:layout_marginStart="50dp"
+            android:fontFamily="@font/pacifico"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/lista_Factura"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginVertical="15dp"
+        android:layout_marginHorizontal="15dp"/>
+
+
+
+    <Button
+        android:id="@+id/incaraca_factura"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/incaraca"
+        android:fontFamily="@font/pacifico"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
